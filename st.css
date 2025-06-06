@@ -66,3 +66,23 @@ footer {
     background-color: aqua;
     display: inline-block;
 }
+
+@media (max-width: 750px) {
+    .top ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .top li {
+        margin: 10px;
+    }
+
+     .modify {
+        padding: 20px;
+    }
+
+    .pho img {
+        height: 150px;
+        width: 150px;
+    }
+}
